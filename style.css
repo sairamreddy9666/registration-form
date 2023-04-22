@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(20, 143, 184);
+    
+}
+.container{
+    margin: 20px;
+    width: 500px;
+    background-color: #d1dbe0;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+
+}
+form h1{
+    color: rgb(16, 16, 180);
+}
+form p{
+    color: #c01085;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input-fld{
+    height: 40px;
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: 1px #777 solid;
+    border-radius: 15px;
+    outline: none;
+}
+button{
+    height: 40px;
+    width: 150px;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px #777 solid;
+    border-radius: 10px;
+    outline: none;
+    background-color: #3f3c91;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+
+}
+
+
+.date-field{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #777;
+    
+}
